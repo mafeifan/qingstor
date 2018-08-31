@@ -6,7 +6,7 @@ npm install qingstor -S
 
 ### Usage
 
-create env.js
+first we need one env.js
 
 ```javascript
 module.exports = {
@@ -20,7 +20,7 @@ module.exports = {
 ```
 const path = require('path');
 const options = require('../env');
-const qingstor = require('../lib');
+const qingstor = require('qingstor');
 const q = new qingstor(options);
 
 q.listAllBuckets()
@@ -40,3 +40,5 @@ q.uploadObject(sourcePath, '/demo/demo.png')
     console.log(res)
   });
 ```
+
+### see official version https://github.com/yunify/qingstor-sdk-js
