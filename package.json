@@ -1,0 +1,19 @@
+{
+  "name": "qingstor",
+  "version": "1.0.1",
+  "description": "QingStor SDK for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qingstor",
+    "object storage",
+    "sdk"
+  ],
+  "author": "Finley Ma <mafeifan@qq.com>",
+  "license": "ISC",
+  "dependencies": {
+    "qingstor-sdk": "^2.2.13"
+  }
+}
