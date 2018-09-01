@@ -1,6 +1,6 @@
 {
   "name": "qingstor",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "QingStor SDK for NodeJS",
   "main": "index.js",
   "directories": {
